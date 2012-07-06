@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topapps
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.twlauncher">
+    <topapp launcher:className="com.sec.android.app.dialertab.DialerTabActivity" launcher:packageName="com.sec.android.app.dialertab" />
+    <topapp launcher:className="com.sec.android.app.contacts.PhoneBookTopMenuActivity" launcher:packageName="com.android.contacts" />
+    <topapp launcher:className="com.android.mms.ui.ConversationList" launcher:packageName="com.android.mms" />
+</topapps>

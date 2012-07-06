@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="10" android:versionName="2.3.6" android:sharedUserLabel="@string/uid_name" package="com.sec.android.app.twlauncher"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <permission android:label="@string/permlab_install_shortcut" android:name="com.android.launcher.permission.INSTALL_SHORTCUT" android:protectionLevel="normal" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:description="@string/permdesc_install_shortcut" />
+    <permission android:label="@string/permlab_uninstall_shortcut" android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" android:protectionLevel="normal" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:description="@string/permdesc_uninstall_shortcut" />
+    <permission android:label="@string/permlab_read_settings" android:name="com.android.launcher.permission.READ_SETTINGS" android:protectionLevel="normal" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:description="@string/permdesc_read_settings" />
+    <permission android:label="@string/permlab_write_settings" android:name="com.android.launcher.permission.WRITE_SETTINGS" android:protectionLevel="normal" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:description="@string/permdesc_write_settings" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <application android:label="@string/application_name" android:icon="@drawable/ic_launcher_home" android:name="LauncherApplication">
+        <activity android:theme="@android:style/Theme.Wallpaper.NoTitleBar" android:name="Launcher" android:clearTaskOnLaunch="true" android:stateNotNeeded="true" android:launchMode="singleTask" android:screenOrientation="user" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Translucent" android:label="Flat Rate scheme" android:name="FlatRateAlertActivity" />
+        <meta-data android:name="android.app.default_searchable" android:value="*" />
+        <receiver android:name=".BootupListener">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".InstallShortcutReceiver" android:permission="com.android.launcher.permission.INSTALL_SHORTCUT">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".UninstallShortcutReceiver" android:permission="com.android.launcher.permission.UNINSTALL_SHORTCUT">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="LauncherProvider" android:readPermission="com.android.launcher.permission.READ_SETTINGS" android:writePermission="com.android.launcher.permission.WRITE_SETTINGS" android:authorities="com.sec.android.app.twlauncher.settings" />
+    </application>
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="10" />
+</manifest>

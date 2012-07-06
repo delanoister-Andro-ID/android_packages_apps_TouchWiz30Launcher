@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="window_background">#ff191919</color>
+    <color name="grid_dark_background">#eb191919</color>
+    <color name="bubble_dark_background">#b2191919</color>
+    <color name="delete_color_filter">#7f9f0000</color>
+    <color name="delete_color_filter2">#ddff0000</color>
+    <color name="uninstall_color_filter">#b29f0000</color>
+    <color name="scroll_color_filter">#7f00f6ff</color>
+    <color name="appwidget_error_color">#ffcccccc</color>
+    <color name="snag_callout_color">#ff444444</color>
+    <color name="gesture_color">#ff0563c1</color>
+    <color name="uncertain_gesture_color">#ff848484</color>
+    <color name="quickview_drag_color_filter">#ff222222</color>
+    <color name="menu_background">#bf000000</color>
+    <color name="menu_background_transparent">#00000000</color>
+    <color name="menu_screen_background">#99000000</color>
+    <color name="softkey_background">#ff7f4900</color>
+    <color name="badge_text">#ffffffff</color>
+    <color name="menu_background_iconmenu">#fff6e4ae</color>
+    <color name="badge_text_iconmenu">#ffe66100</color>
+    <color name="softkey_background_dim">#66000000</color>
+</resources>

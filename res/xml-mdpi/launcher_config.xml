@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.twlauncher">
+    <columnno launcher:menuColumnCount="4" />
+    <itemno launcher:itemNumOfPage="16" />
+    <pageindicator launcher:useLargeDrawablesOnly="false" />
+    <launcher launcher:screenCount="7" launcher:defaultScreenCount="3" launcher:useMainMenuConcentrationEffect="true" launcher:use16BitWindow="true" launcher:useMainMenuListMode="true" launcher:useImageMenu="false" />
+    <product launcher:modelFamily="S1" launcher:model="GT-I5800" />
+</config>

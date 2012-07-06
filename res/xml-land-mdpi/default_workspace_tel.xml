@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.twlauncher">
+    <shortcut launcher:screen="0" launcher:x="2" launcher:y="3" launcher:icon="@drawable/foxtel" launcher:title="@string/telstra_foxtel" launcher:uri="sk:///foxtel-mid" />
+    <shortcut launcher:screen="0" launcher:x="3" launcher:y="3" launcher:icon="@drawable/bigpond" launcher:title="@string/telstra_home" launcher:uri="sk:///home-mid" />
+    <shortcut launcher:screen="1" launcher:x="0" launcher:y="3" launcher:icon="@drawable/yellowpages" launcher:title="@string/telstra_yellowpages" launcher:uri="sk:///yellow-mid" />
+    <shortcut launcher:screen="1" launcher:x="1" launcher:y="3" launcher:icon="@drawable/whitepages" launcher:title="@string/telstra_whitepages" launcher:uri="sk:///whitepages-mid" />
+    <shortcut launcher:screen="1" launcher:x="2" launcher:y="3" launcher:icon="@drawable/citysearch" launcher:title="@string/telstra_citysearch" launcher:uri="sk:///citysearch-mid" />
+    <shortcut launcher:screen="1" launcher:x="3" launcher:y="3" launcher:icon="@drawable/whereis" launcher:title="@string/telstra_navigator" launcher:uri="sk:///navigator-mid" />
+    <shortcut launcher:screen="2" launcher:x="0" launcher:y="3" launcher:icon="@drawable/games" launcher:title="@string/telstra_games" launcher:uri="sk:///games-mid" />
+    <shortcut launcher:screen="2" launcher:x="1" launcher:y="3" launcher:icon="@drawable/music" launcher:title="@string/telstra_bigpondmusic" launcher:uri="sk:///music-mid" />
+    <shortcut launcher:screen="2" launcher:x="2" launcher:y="3" launcher:icon="@drawable/downloads" launcher:title="@string/telstra_downloads" launcher:uri="sk:///downloads-mid" />
+    <shortcut launcher:screen="2" launcher:x="3" launcher:y="3" launcher:icon="@drawable/myemail" launcher:title="@string/telstra_myemail" launcher:uri="sk:///myemail-mid" />
+</favorites>

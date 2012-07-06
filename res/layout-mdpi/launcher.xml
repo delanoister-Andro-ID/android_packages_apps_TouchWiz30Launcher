@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.sec.android.app.twlauncher.DragLayer android:id="@id/drag_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.twlauncher">
+    <com.sec.android.app.twlauncher.Workspace android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:defaultScreen="0" launcher:delayedShortcutDisplay="false" />
+    <com.sec.android.app.twlauncher.MenuDrawer android:id="@id/menudrawer" android:background="@color/menu_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:paddingBottom="@dimen/menu_top_item_height" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.sec.android.app.twlauncher.MenuManager android:id="@id/menumanager" android:paddingBottom="@dimen/menu_top_item_height" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.sec.android.app.twlauncher.MenuDrawer>
+    <com.sec.android.app.twlauncher.AppShortcutZone android:layout_gravity="bottom|center" android:id="@id/shortcut_zone" android:layout_width="fill_parent" android:layout_height="@dimen/menu_top_item_height" launcher:iconColumnCount="4" />
+    <com.sec.android.app.twlauncher.DeleteZone android:layout_gravity="bottom|center" android:id="@id/delete_zone" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="50.659973dip" launcher:applyIconHoverColorFilter="false" launcher:drawDeleteZoneBg="true" launcher:inOutAnimationTranslationRatio="1.0" launcher:inOutAnimationDuration="200">
+        <FrameLayout android:id="@id/remove_zone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="18.659973dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remove" android:singleLine="true" android:drawableLeft="@drawable/homescreen_remove_icon" android:drawablePadding="6.659973dip" />
+        </FrameLayout>
+    </com.sec.android.app.twlauncher.DeleteZone>
+    <com.sec.android.app.twlauncher.WidgetPreview android:id="@id/widget_preview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:layout_gravity="bottom|center" android:id="@id/homescreen_edit_centerbtn" android:background="@drawable/homescreen_add_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/homescreen_add" />
+    <com.sec.android.app.twlauncher.QuickViewWorkspace android:id="@id/quickviewworkspace" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.sec.android.app.twlauncher.QuickViewMainMenu android:id="@id/quickviewmainmenu" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.sec.android.app.twlauncher.DragLayer>

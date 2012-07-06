@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@id/listitem" android:layout_width="fill_parent" android:layout_height="65.29999dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:scaleType="center" />
+    <TextView android:textSize="22.659973sp" android:textStyle="normal" android:textColor="@color/bright_text_dark_focused" android:ellipsize="marquee" android:gravity="left|center" android:id="@id/name" android:paddingLeft="10.0dip" android:paddingTop="0.0dip" android:paddingRight="10.0dip" android:paddingBottom="0.0dip" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

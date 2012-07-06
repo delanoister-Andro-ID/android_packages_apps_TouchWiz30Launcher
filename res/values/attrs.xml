@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <attr name="direction">
+        <enum name="vertical" value="0" />
+        <enum name="horizontal" value="1" />
+    </attr>
+    <attr name="defaultScreen" format="integer" />
+    <attr name="delayedShortcutDisplay" format="boolean" />
+    <attr name="cellWidth" format="dimension" />
+    <attr name="cellHeight" format="dimension" />
+    <attr name="longAxisStartPadding" format="dimension" />
+    <attr name="longAxisEndPadding" format="dimension" />
+    <attr name="shortAxisStartPadding" format="dimension" />
+    <attr name="shortAxisEndPadding" format="dimension" />
+    <attr name="shortAxisCells" format="integer" />
+    <attr name="longAxisCells" format="integer" />
+    <attr name="applyIconHoverColorFilter" format="boolean" />
+    <attr name="drawDeleteZoneBg" format="boolean" />
+    <attr name="inOutAnimationTranslationRatio" format="float" />
+    <attr name="inOutAnimationDuration" format="integer" />
+    <attr name="className" format="string" />
+    <attr name="packageName" format="string" />
+    <attr name="screen" format="string" />
+    <attr name="x" format="string" />
+    <attr name="y" format="string" />
+    <attr name="spanX" format="string" />
+    <attr name="spanY" format="string" />
+    <attr name="icon" format="reference" />
+    <attr name="title" format="reference" />
+    <attr name="uri" format="string" />
+    <attr name="count" format="string" />
+    <attr name="left" format="string" />
+    <attr name="top" format="string" />
+    <attr name="right" format="string" />
+    <attr name="bottom" format="string" />
+    <attr name="iconColumnCount" format="integer" />
+    <attr name="menuColumnCount" format="integer" />
+    <attr name="itemNumOfPage" format="integer" />
+    <attr name="modelFamily" format="string" />
+    <attr name="model" format="string" />
+    <attr name="useLargeDrawablesOnly" format="boolean" />
+    <attr name="screenCount" format="integer" />
+    <attr name="defaultScreenCount" format="integer" />
+    <attr name="useFullScreenQuickViewLandScape" format="boolean" />
+    <attr name="useMainMenuConcentrationEffect" format="boolean" />
+    <attr name="use16BitWindow" format="boolean" />
+    <attr name="useMainMenuListMode" format="boolean" />
+    <attr name="workspaceCellsX" format="integer" />
+    <attr name="workspaceCellsY" format="integer" />
+    <attr name="useImageMenu" format="boolean" />
+</resources>

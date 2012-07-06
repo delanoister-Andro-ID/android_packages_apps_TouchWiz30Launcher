@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.sec.android.app.twlauncher.DragLayer android:id="@id/drag_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.twlauncher">
+    <com.sec.android.app.twlauncher.Workspace android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:defaultScreen="0" launcher:delayedShortcutDisplay="false" />
+    <com.sec.android.app.twlauncher.MenuDrawer android:id="@id/menudrawer" android:background="@color/menu_background_iconmenu" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:paddingRight="81.34dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.sec.android.app.twlauncher.MenuManager android:id="@id/menumanager" android:layout_width="376.0dip" android:layout_height="fill_parent" launcher:direction="vertical" />
+    </com.sec.android.app.twlauncher.MenuDrawer>
+    <com.sec.android.app.twlauncher.TopFourZone android:layout_gravity="right" android:orientation="vertical" android:id="@id/topfour_zone" android:background="@color/softkey_background_dim" android:layout_width="@dimen/menu_top_item_height_iconmenu" android:layout_height="fill_parent" />
+    <com.sec.android.app.twlauncher.AppShortcutZone android:layout_gravity="right|center" android:orientation="vertical" android:id="@id/shortcut_zone" android:layout_width="@dimen/menu_top_item_height_iconmenu" android:layout_height="81.34dip" launcher:iconColumnCount="1" />
+    <com.sec.android.app.twlauncher.DeleteZone android:layout_gravity="right|center" android:orientation="vertical" android:id="@id/delete_zone" android:paddingBottom="@dimen/deletezone_bottom_offset" android:visibility="invisible" android:layout_width="50.659973dip" android:layout_height="109.32999dip" launcher:applyIconHoverColorFilter="false" launcher:drawDeleteZoneBg="true" launcher:inOutAnimationTranslationRatio="1.0" launcher:inOutAnimationDuration="200">
+        <FrameLayout android:id="@id/remove_zone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#ff000000" android:shadowRadius="2.0" android:drawableTop="@drawable/homescreen_remove_icon" android:drawablePadding="-6.0dip" />
+        </FrameLayout>
+    </com.sec.android.app.twlauncher.DeleteZone>
+    <com.sec.android.app.twlauncher.WidgetPreview android:id="@id/widget_preview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:layout_gravity="bottom" android:id="@id/homescreen_edit_leftbtn" android:background="@drawable/homescreen_add_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="140.0dip" android:src="@drawable/homescreen_add" />
+    <ImageButton android:layout_gravity="bottom" android:id="@id/homescreen_edit_rightbtn" android:background="@drawable/homescreen_add_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="312.0dip" android:src="@drawable/homescreen_add" />
+    <com.sec.android.app.twlauncher.QuickViewWorkspace android:id="@id/quickviewworkspace" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.sec.android.app.twlauncher.QuickViewMainMenu android:id="@id/quickviewmainmenu" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.sec.android.app.twlauncher.DragLayer>

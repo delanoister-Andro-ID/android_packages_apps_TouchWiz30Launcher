@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <bool name="workspace_widget_padding">true</bool>
+    <bool name="workspace_pageindicator_showhide_enable">false</bool>
+    <bool name="pageindicator_showhide_enable">true</bool>
+    <bool name="luisamode">false</bool>
+    <bool name="pageindicator_opacity">false</bool>
+</resources>

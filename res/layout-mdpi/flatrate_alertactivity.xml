@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/org_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable_flat_rate_org" />
+    <RadioGroup android:orientation="vertical" android:id="@id/xec_radiobuttton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/xec_radiobuttton_option1" android:checked="false" android:text="@string/enable_flat_rate_xec" />
+        <RadioButton android:id="@id/xec_radiobuttton_option2" android:checked="true" android:text="@string/enable_non_flat_rate_xec" />
+    </RadioGroup>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="180.0dip">
+        <Button android:id="@id/OK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok_string" />
+    </LinearLayout>
+</LinearLayout>

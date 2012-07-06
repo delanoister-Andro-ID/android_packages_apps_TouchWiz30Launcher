@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="cell1" />
+    <item type="id" name="cell2" />
+    <item type="id" name="cell3" />
+    <item type="id" name="cell4" />
+    <item type="id" name="cell5" />
+    <item type="id" name="cell6" />
+    <item type="id" name="cell7" />
+    <item type="id" name="wallpaperCanvas" />
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.sec.android.app.twlauncher.CellLayout android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:cellWidth="80.0dip" launcher:cellHeight="96.0dip" launcher:longAxisStartPadding="0.0dip" launcher:longAxisEndPadding="62.0dip" launcher:shortAxisStartPadding="0.0dip" launcher:shortAxisEndPadding="0.0dip" launcher:shortAxisCells="4" launcher:longAxisCells="4"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.twlauncher" />
